@@ -20,7 +20,7 @@ namespace SalesWebMvc
             builder.Services.AddScoped<SeedingService>();
             builder.Services.AddScoped<SellerService>();
             builder.Services.AddScoped<DepartmentService>();
-
+            builder.Services.AddScoped<SalesRecordService>();
 
             //Colocando Estados Unidos como localização base
             var enUs = new CultureInfo("en-US");
